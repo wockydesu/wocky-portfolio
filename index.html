@@ -49,19 +49,19 @@ ul.plain li::before{content:"";position:absolute;left:0;top:.7em;width:10px;heig
 .price{background:var(--panel);border:1px solid var(--line);padding:20px}
 .price h3{margin-bottom:8px}
 footer{padding:32px 0 48px;border-top:1px solid var(--line);font-size:.9rem}
-@media(max-width:720px){.hero{grid-template-columns:1fr}.hero img{max-width:160px;order:-1}.two{grid-template-columns:1fr}}
+@media(max-width:720px){.card{grid-column:auto!important}.hero{grid-template-columns:1fr}.hero img{max-width:160px;order:-1}.two{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
 </head>
 <body>
-<nav><div class="wrap"><a href="#top"><b>Wocky</b></a><div><a href="#video">Video</a><a href="#tentang">Tentang</a><a href="#paket">Paket</a><a href="#kontak">Kontak</a></div></div></nav>
+<nav><div class="wrap"><a href="#top"><b>Wocky</b></a><div><a href="#video">Video</a><a href="#tentang">Tentang</a><a href="#paket">Plans</a><a href="#kontak">Kontak</a></div></div></nav>
 
 <header class="wrap hero" id="top">
   <div>
     <h1>WOCKY</h1>
-    <p class="lead">Tutor matematika untuk SIMAK UI, UTUL UGM, SM ITB, TKA, dan Suneung. Soal asli dibahas pelan-pelan sampai kamu paham jalannya, bukan cuma hafal rumus.</p>
+    <p class="lead">Virtual YouTuber yang senang membahas matematika terutama seleksi masuk Universitas seperti SIMAK UI, UTUL UGM, SM ITB, TKA, sampai Suneung (UTBK-nya Korea Selatan). Soal dibahas pelan-pelan sampai kamu paham konsepnya, bukan cuma hafal rumus!</p>
     <div class="cta">
-      <a class="btn main" href="https://wa.me/628XXXXXXXXXX?text=Halo%20Wocky%2C%20saya%20tertarik%20les%20matematika" id="wa1">Chat via WhatsApp</a>
+      <a class="btn main" href="https://discord.com/users/458832519307984896" target="_blank" rel="noopener" id="wa1">Contact via Discord</a>
       <a class="btn" href="https://www.youtube.com/@wockydesu" target="_blank" rel="noopener">Tonton di YouTube</a>
     </div>
     <div class="stats">
@@ -75,76 +75,91 @@ footer{padding:32px 0 48px;border-top:1px solid var(--line);font-size:.9rem}
 
 <main>
 <section id="video"><div class="wrap">
-  <h2>Pembahasan unggulan</h2>
-  <p class="muted" style="margin-top:-12px;margin-bottom:24px">Live stream marathon soal asli dari playlist “AGIT”, serba-serbi ujian buat kelas 3 SMA.</p>
+  <h2>Gua sering livestream di Youtube juga!</h2>
+  <p class="muted" style="margin-top:-12px;margin-bottom:24px">Live stream marathon soal asli seleksi Universitas, serba-serbi ujian buat kelas agit intinya.</p>
   <div class="grid" id="videos"></div>
   <p style="margin-top:24px"><a class="btn" href="https://www.youtube.com/@wockydesu/playlists" target="_blank" rel="noopener">Lihat semua playlist</a></p>
 </div></section>
 
 <section id="tentang"><div class="wrap two">
   <div>
-    <h2>Cara saya mengajar</h2>
+    <h2>I have my own style!</h2>
     <ul class="plain">
-      <li>Mulai dari soal asli ujian, bukan soal latihan yang dibuat mudah.</li>
-      <li>Setiap langkah dijelaskan: kenapa pakai cara ini, dan kapan cara lain lebih cepat.</li>
-      <li>Santai tapi tetap runtut. Gaya “Bahas-Bahas Santuy” juga dipakai di kelas privat.</li>
+      <li>Selalu bertahap! Start dari fundamental sampe soalnya dibolak-balik.</li>
+      <li>Setiap langkah dijelasin: kenapa pakai cara ini, dan kapan cara lain lebih cepat.</li>
+      <li>Santai tapi tetap runtut. Bingung tengah jalan? Santuy, tanya aja langsung!.</li>
       <li>Materi bisa disesuaikan ke ujian targetmu.</li>
     </ul>
   </div>
   <div>
-    <h2>Ujian yang dibahas</h2>
+    <h2>Pernah bahas apa aja?</h2>
     <ul class="plain">
       <li>SIMAK UI Matematika Dasar (2017 sampai 2025)</li>
       <li>UTUL UGM Matematika Dasar dan IPA</li>
-      <li>SM ITB (TKA Matematika)</li>
-      <li>TKA Matematika Wajib 2025</li>
-      <li>Suneung (CSAT Korea Selatan) Mathematics</li>
+      <li>SSU ITB Matematika 2025</li>
+      <li>TKA Matematika Wajib dan Matematika Lanjut 2025</li>
+      <li>Suneung Mathematics section (UTBK-nya Korea Selatan)</li>
+      <li>OSK OSP Math SMA juga pernah</li>
     </ul>
   </div>
 </div></section>
 
 <section id="paket"><div class="wrap">
-  <h2>Format les</h2>
+  <h2>If You Are Interested...</h2>
   <div class="grid">
-    <div class="price"><h3>Privat 1 lawan 1</h3><p class="muted">Fokus ke kelemahanmu. Online lewat Google Meet atau Zoom. [isi tarif]</p></div>
-    <div class="price"><h3>Kelas kecil</h3><p class="muted">Belajar bareng 3 sampai 5 orang dengan target ujian yang sama. [isi tarif]</p></div>
-    <div class="price"><h3>Bahas soal tertentu</h3><p class="muted">Kirim soal yang bikin buntu, dibahas dalam satu sesi singkat. [isi tarif]</p></div>
+    <div class="price"><h3>Privat 1 on 1</h3><p class="muted">Full focus banget dan disesuaikan dengan pace kamu!</p></div>
+    <div class="price"><h3>No one left behind!</h3><p class="muted">Lock in! bareng temen 3 sampai 5 orang dengan target ujian yang sama lesgoow.</p></div>
+    <div class="price"><h3>Lifelong Learner</h3><p class="muted">Kirim soal kamu di Discord, kita sikat bareng-bareng! <a href="https://discord.gg/B37BeyD2mf">Klik di sini.</a></p></div>
   </div>
 </div></section>
 
 <section id="kontak"><div class="wrap">
-  <h2>Mau mulai belajar?</h2>
-  <p style="max-width:32em">Kirim pesan dengan menyebut ujian yang kamu tuju dan jadwal yang kamu punya. Saya balas secepatnya.</p>
-  <p><a class="btn main" href="https://wa.me/628XXXXXXXXXX?text=Halo%20Wocky%2C%20saya%20tertarik%20les%20matematika" id="wa2">Chat via WhatsApp</a></p>
+  <h2>Tanya-tanya aja dulu :D</h2>
+  <p style="max-width:32em">Hit me on Discord for further discussion!.</p>
+  <p><a class="btn main" href="https://discord.com/users/458832519307984896" target="_blank" rel="noopener" id="wa2">Hubungi via Discord</a></p>
 </div></section>
 </main>
 
 <footer><div class="wrap muted">© Wocky. Channel YouTube: <a href="https://www.youtube.com/@wockydesu">@wockydesu</a></div></footer>
 
 <script>
-// Isi "id" dengan kode video YouTube (bagian setelah v= pada link) agar thumbnail asli muncul.
+// Thumbnail tiap kartu: isi "img" dengan lokasi gambar di repo, contoh img:"assets/thumb-simak-ui.png"
+// (upload gambarnya ke folder assets). Kalau "img" kosong, dipakai thumbnail YouTube dari "id".
+// Kalau keduanya kosong, tampil kotak bertulisan.
+// Pengaturan per kartu:
+//   ratio : bentuk kotak thumbnail, mis. "16/9", "4/3", "1/1", "21/9"
+//   fit   : "cover" (penuh, tepi bisa terpotong) atau "contain" (utuh, bisa ada ruang kosong)
+//   pos   : bagian gambar yang dipertahankan saat terpotong, mis. "center", "top", "left", "50% 20%"
+//   span  : lebar kartu dalam jumlah kolom (1 = biasa, 2 = dua kali lebih lebar)
+// "id" = kode video YouTube (bagian setelah v= pada link). Menempel link YouTube utuh di "id" juga bisa.
+// Seluruh kartu bisa diklik dan langsung membuka videonya. Kalau "id" kosong, kartu mengarah ke Live channel.
 const CHANNEL = "https://www.youtube.com/@wockydesu";
 const VIDEOS = [
-  {id:"", t:"Marathon 50 soal asli SM ITB TKA Matematika", m:"42K views · 6 jam 37 menit", k:"SM ITB"},
-  {id:"", t:"Marathon soal asli UTUL UGM 2019 Matematika Dasar & IPA", m:"8,5K views · 8 jam 22 menit", k:"UTUL UGM"},
-  {id:"", t:"Marathon full pembahasan TKA Matematika Wajib 2025 Paket 2", m:"5,7K views · 5 jam 58 menit", k:"TKA MATH"},
-  {id:"", t:"Marathon soal asli SIMAK UI 2017 & 2018 Matematika Dasar", m:"3,8K views · 7 jam 48 menit", k:"SIMAK UI"},
-  {id:"", t:"Marathon soal asli SIMAK UI 2024 & 2025 Matematika Dasar", m:"3,3K views · 5 jam 22 menit", k:"SIMAK UI"},
-  {id:"", t:"Marathon Suneung Mathematics (UTBK-nya Korea Selatan)", m:"3,3K views · 6 jam 36 menit", k:"수능"}
+  {img:"assets/ITB.png", ratio:"16/9", fit:"cover", pos:"center", span:1, id:"OY_SXbtiQsc", t:"Marathon 50 soal asli SSU ITB TKA Matematika", m:"42K views · 6 jam 37 menit", k:"SM ITB"},
+  {img:"assets/UGM.png", ratio:"16/9", fit:"cover", pos:"center", span:1, id:"JILHB_6_w1Y", t:"Marathon soal asli UTUL UGM 2019 Matematika Dasar & IPA", m:"8,5K views · 8 jam 22 menit", k:"UTUL UGM"},
+  {img:"assets/TKA.png", ratio:"16/9", fit:"cover", pos:"center", span:1, id:"l1z350BziuA", t:"Marathon full pembahasan TKA Matematika Wajib 2025 Paket 2", m:"5,7K views · 5 jam 58 menit", k:"TKA MATH"},
+  {img:"assets/UI.png", ratio:"16/9", fit:"cover", pos:"center", span:1, id:"RvQDMkyfhBo", t:"Marathon soal asli SIMAK UI 2017 & 2018 Matematika Dasar", m:"3,8K views · 7 jam 48 menit", k:"SIMAK UI"},
+  {img:"assets/UI.png", ratio:"16/9", fit:"cover", pos:"center", span:1, id:"pZEco_feGrE", t:"Marathon soal asli SIMAK UI 2024 & 2025 Matematika Dasar", m:"3,3K views · 5 jam 22 menit", k:"SIMAK UI"},
+  {img:"assets/Suneung.png", ratio:"16/9", fit:"cover", pos:"center", span:1, id:"NM2gWMfz1Qs", t:"Marathon Suneung Mathematics (UTBK-nya Korea Selatan)", m:"3,3K views · 6 jam 36 menit", k:"수능"}
 ];
+const vid = u => { u = (u||"").trim(); const m = u.match(/(?:v=|youtu\.be\/|\/live\/|\/shorts\/|\/embed\/)([A-Za-z0-9_-]{11})/); return m ? m[1] : (/^[A-Za-z0-9_-]{11}$/.test(u) ? u : ""); };
+const yt = u => { const id = vid(u); return id ? "https://www.youtube.com/watch?v="+id : CHANNEL+"/streams"; };
 const box = document.getElementById("videos");
 VIDEOS.forEach(v=>{
   const a = document.createElement("a");
   a.className = "card"; a.target = "_blank"; a.rel = "noopener";
-  a.href = v.id ? "https://www.youtube.com/watch?v="+v.id : CHANNEL+"/streams";
+  a.href = yt(v.id);
+  if(v.span > 1) a.style.gridColumn = "span " + v.span;
   const th = document.createElement("div"); th.className = "thumb";
-  if(v.id){ const i = document.createElement("img"); i.loading="lazy"; i.alt=v.t; i.src="https://i.ytimg.com/vi/"+v.id+"/hqdefault.jpg"; th.appendChild(i); }
+  th.style.aspectRatio = v.ratio || "16/9";
+  const src = v.img || (vid(v.id) ? "https://i.ytimg.com/vi/"+vid(v.id)+"/hqdefault.jpg" : "");
+  if(src){ const i = document.createElement("img"); i.loading="lazy"; i.alt=v.t; i.src=src; i.style.objectFit=v.fit||"cover"; i.style.objectPosition=v.pos||"center"; i.onerror=()=>{i.remove(); th.textContent=v.k;}; th.appendChild(i); }
   else th.textContent = v.k;
-  const b = document.createElement("div"); b.className = "body";
-  b.innerHTML = "<h3></h3><div class='muted'></div>";
-  b.querySelector("h3").textContent = v.t;
-  b.querySelector(".muted").textContent = v.m;
-  a.append(th,b); box.appendChild(a);
+  const body = document.createElement("div"); body.className = "body";
+  body.innerHTML = "<h3></h3><div class='muted'></div>";
+  body.querySelector("h3").textContent = v.t;
+  body.querySelector(".muted").textContent = v.m;
+  a.append(th,body); box.appendChild(a);
 });
 </script>
 </body>
